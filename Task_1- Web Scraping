@@ -1,3 +1,13 @@
+The internet is filled with excellent (and free) public datasets,
+but the ability to find and extract relevant data yourself is a
+crucial skill for any data analyst. Using Python, you can
+leverage tools like BeautifulSoup or Scrapy to crawl the web
+for valuable data. If you don’t know how to code, tools like
+Octoparse or ParseHub offer automated solutions (many with
+free trials). Mastering web scraping allows you to work with
+customized datasets that align with your specific interests,
+even if they haven’t been pre-compiled.
+Solution:-
 import requests
 from bs4 import BeautifulSoup
 
