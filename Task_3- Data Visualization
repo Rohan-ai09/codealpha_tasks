@@ -1,0 +1,16 @@
+Humans process visuals faster than text, making data visualization
+a powerful tool for turning raw data into meaningful insights. Welldesigned visuals not only enhance understanding but also tell
+compelling stories that drive action. Creating impactful
+visualizations not only improves data interpretation but also
+makes your portfolio stand out
+Solution:-
+import matplotlib.pyplot as plt
+
+categories = ['A', 'B', 'C']
+values = [10, 24, 36]
+
+plt.bar(categories, values, color='skyblue')
+plt.title('Sample Bar Chart')
+plt.xlabel('Category')
+plt.ylabel('Value')
+plt.show()
